@@ -25,12 +25,13 @@ Windows용 prrat을 설치후에, 파일을 읽어서 그래프로 출력해 보
 
 그리고나서, 방금했던 작업을 스크립트로 짜본다. 윈도우  GUI에서 실행이 잘 되는것을 확인 후에 이 스크립트를 리눅스로 옮겨 온다.
 
+```
 ==a.script==
 
 Read from file: "836271.wav"
 
 Save as text file: "836271.TextGrid"
-
+```
 
 실행하는 폴더에 836271.wav파일과 a.script가 있다고 가정했을때 실행방법은
 
