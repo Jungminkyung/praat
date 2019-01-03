@@ -1,14 +1,23 @@
 # praat Centos7 설치 ( https://github.com/jinserk/pytorch-asr/wiki/How-to-install-Praat-on-CentOS7 )
 
 $sudo yum install gtk2-devel pulseaudio-libs-devel alsa-lib-devel jack-audio-connection-kit-devel
+
 $sudo yum --enablerepo=extras install centos-release-scl
+
 $ sudo yum install devtoolset-7
+
 $ scl enable devtoolset-7 bash
+
 $ git clone https://github.com/praat/praat.git
+
 $ cd praat
+
 $ cp makefiles/makefile.defs.linux.pulse ./makefile.defs
+
 $ make
+
 $ make install
+
 
 praat 을 실행시켜보면 오류가 뜰텐데 잘못설치되어서 나는 오류가 아니다.
 Windows용 prrat을 설치후에, 파일을 읽어서 그래프로 출력해 보고, 텍스트 파일로 변환도 해본다.
