@@ -105,3 +105,7 @@ endfor
 그러고 나서 잘 실행된다.
 
 
+한글 설명서 : http://www.fonetiks.info/praat/praat.htm
+
+
+
