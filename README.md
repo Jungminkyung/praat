@@ -25,7 +25,13 @@ Windows용 prrat을 설치후에, 파일을 읽어서 그래프로 출력해 보
 
 그리고나서, 방금했던 작업을 스크립트로 짜본다. 윈도우  GUI에서 실행이 잘 되는것을 확인 후에 이 스크립트를 리눅스로 옮겨 온다.
 
-스크립트 짤때 처음 도움받았던 곳 ( http://praatscripting.lingphon.net/files-1.html ) 
+스크립트 짤때 도움받았던 곳
+( 
+  http://praatscripting.lingphon.net/files-1.html 
+  http://www.fon.hum.uva.nl/praat/manual/Script_for_listing_time_--F0_--intensity.html
+  http://www.fon.hum.uva.nl/praat/manual/Scripting_6_9__Calling_from_the_command_line.html 
+  http://www.fon.hum.uva.nl/praat/manual/Scripting_6_9__Calling_from_the_command_line.html
+) 
 
 ```
 ==a.script==
