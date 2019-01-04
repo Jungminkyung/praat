@@ -70,11 +70,11 @@ sentence는 string이고 real은 실수를 말하는듯 하다.(안찾아봤습�
 
 
 스크립트완성본. wav파일에서 pitch(주파수 높낮이Hz) intensity(목소리 크기)를 출력해준다.
+
+$ praat a.script /test/1.wav
 ```
 form Test command line calls
-        sentence filename
-        real Beep_duration
-        sentence Second_text
+        sentence filename        
 endform
 Read from file: filename$
 Rename: "Sound"
