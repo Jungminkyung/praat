@@ -61,7 +61,7 @@ endform
 ```
 sentence는 string이고 real은 실수를 말하는듯 하다.(안찾아봤습니다. 일단 실행하는게 목적입니다.)
 
-즉 저렇게 스크립트를 짜면 $ prrat a.script 1 2 3을 실행했을때 변수값  filename=1 real=2 Second_text=3으로 들어가는것이다.
+즉 저렇게 스크립트를 짜면 $ prrat a.script 1 2 3을 실행했을때 변수값  filename=1 Beep_duration=2 Second_text=3으로 들어가는것이다.
 
 변수를 쓸때는 filename$ 처럼 사용하는듯 하다.
 
