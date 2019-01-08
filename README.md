@@ -1,3 +1,19 @@
+
+centos 6 설치
+
+/etc/yum.repos.d 에 linuxtech-testing.repo 생성
+```
+[linuxtech-testing]
+name=LinuxTECH Testing
+baseurl=http://pkgrepo.linuxtech.net/el6/testing/
+enabled=0
+gpgcheck=1
+gpgkey=http://pkgrepo.linuxtech.net/el6/release/RPM-GPG-KEY-LinuxTECH.NET
+```
+yum --enablerepo=linuxtech-testing install praat
+
+
+
 # praat Centos7 설치 ( https://github.com/jinserk/pytorch-asr/wiki/How-to-install-Praat-on-CentOS7 )
 
 $sudo yum install gtk2-devel pulseaudio-libs-devel alsa-lib-devel jack-audio-connection-kit-devel
